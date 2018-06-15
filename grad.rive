@@ -1,0 +1,32 @@
+//RiveScript for GradSchool Bot. Arthur Thomas
+//<script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
+
+! version = 2.0
+
++ *hello *
+- Hi, I'm the GradSchool Chatbot. 
+
+//+ my name is * * 
+//- Hello <star2>, <star1>!
+
+
+//saving infromation
++ my name is * 
+- Hello, <set name=<star>> <get name>
+
++ what is my name
+* <get name> == undefined => You never told me your name.
+- You are <get name>
+- You're <get name>
+- <get name>
+
+
+//previous discussions
++ i need help with deferrals
+- I can help you with deferring your Admission. When were you admitted?
+
++ * 
+% I can help you with deferring your Admission. When were you admitted?
+- Term: <set term=<star>> <get term>. how long do you want to defer for?
+
+
