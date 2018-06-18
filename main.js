@@ -12,7 +12,6 @@ function main() {
     bot = new RiveScript();
     bot.loadFile("grad.rive", botReady, botError);
 
-
     function botReady() {
         console.log("Chatbot Status: OK");
         bot.sortReplies();
@@ -29,4 +28,13 @@ function chat() {
     //reply.innerHTML = userInput;
     let reply = bot.reply("local-user", userInput);
     console.log(reply);
+    var promiseReply = Promise.resolve(reply);
+    promiseReply.then(function (value) {
+        console.log(value);
+        let output = document.getElementById("output");
+        output.innerHTML = value;
+    
+        // expected output: Array [1, 2, 3]
+    });
+    
 }
