@@ -25,6 +25,8 @@ function main() {
 replyArray = [];
 sentMessagesArray = [];
 
+
+
 function chat() {
     let userInput = chatInput.value.trim();
     //sentMessagesArray.push(userInput);
@@ -37,9 +39,15 @@ function chat() {
         console.log(value);
         let output = document.getElementById("output");
         replyArray.push(value);
-        output.innerHTML = replyArray;
+        //output.innerHTML = replyArray;
 
     });
 
-    
+
+}
+
+for (let i = 0; i > 0; i++) {
+    console.log(replyArray + " ");
+   // output.innerHTML = replyArray +
+
 }
