@@ -16,27 +16,30 @@ function main() {
         console.log("Chatbot Status: OK");
         bot.sortReplies();
     }
+
     function botError(error) {
         console.log("Chatbot Status: " + error);
     }
 }
 
-returnReplyArray = [];
+replyArray = [];
+sentMessagesArray = [];
 
 function chat() {
     let userInput = chatInput.value.trim();
+    //sentMessagesArray.push(userInput);
     //reply.innerHTML = userInput;
     let reply = bot.reply("local-user", userInput);
     console.log(reply);
-    
+
     var promiseReply = Promise.resolve(reply);
     promiseReply.then(function (value) {
         console.log(value);
         let output = document.getElementById("output");
-        returnReplyArray.push(value);
-        output.innerHTML = returnReplyArray;
+        replyArray.push(value);
+        output.innerHTML = replyArray;
 
-        // expected output: Array [1, 2, 3]
     });
 
+    
 }
