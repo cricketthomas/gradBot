@@ -16,25 +16,27 @@ function main() {
         console.log("Chatbot Status: OK");
         bot.sortReplies();
     }
-
-    // It's good to catch errors too!
     function botError(error) {
-        console.log("Chatbot Status: Failed" + error);
+        console.log("Chatbot Status: " + error);
     }
 }
+
+returnReplyArray = [];
 
 function chat() {
     let userInput = chatInput.value.trim();
     //reply.innerHTML = userInput;
     let reply = bot.reply("local-user", userInput);
     console.log(reply);
+    
     var promiseReply = Promise.resolve(reply);
     promiseReply.then(function (value) {
         console.log(value);
         let output = document.getElementById("output");
-        output.innerHTML = value;
-    
+        returnReplyArray.push(value);
+        output.innerHTML = returnReplyArray;
+
         // expected output: Array [1, 2, 3]
     });
-    
+
 }

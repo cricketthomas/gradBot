@@ -3,9 +3,16 @@
 
 ! version = 2.0
 
+
+
+
+! var contact = Do you need help finding your Department/Program contact? Reply: "Find [4 Digit Program Code]"
+
+
 + hello
 - Hi, I'm the GradSchool Chatbot. 
-
++ *
+- I'm not sure how to reply to that.
 //+ my name is * * 
 //- Hello <star2>, <star1>!
 
@@ -23,7 +30,7 @@
 //previous discussions
 
 //Deferrals
-+ i need help with deferrals
++ (i need help with deferrals|defer|defferals|deferral)
 - When were you admitted?
 
 + * 
@@ -31,11 +38,11 @@
 - Current Term: <set term=<star>> <get term>. how long do you want to defer for? \s
 ^ 1 year? or 1 Semester? 
 
-+ 1 year
++ (1 year|one year)
 - Ok. One year. Please contact your department coordinator/program. With this email message: \s
 ^ "Hello, my name is <get name>, I was admitted to <get term> and I want to defer for one year."\s
 ^ Please Copy and Paste this email to your clipboard or into the email box below.
-
+^ (@ contact)
 
 
 
