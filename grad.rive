@@ -3,16 +3,15 @@
 
 ! version = 2.0
 
-+ *hello *
++ hello
 - Hi, I'm the GradSchool Chatbot. 
 
 //+ my name is * * 
 //- Hello <star2>, <star1>!
 
-
 //saving infromation
 + my name is * 
-- Hello, <set name=<star>> <get name>
+- Hello,<set name=<star>> <get name>
 
 + what is my name
 * <get name> == undefined => You never told me your name.
@@ -22,11 +21,26 @@
 
 
 //previous discussions
+
+//Deferrals
 + i need help with deferrals
-- I can help you with deferring your Admission. When were you admitted?
+- When were you admitted?
 
 + * 
-% I can help you with deferring your Admission. When were you admitted?
-- Term: <set term=<star>> <get term>. how long do you want to defer for?
+% when were you admitted
+- Current Term: <set term=<star>> <get term>. how long do you want to defer for? \s
+^ 1 year? or 1 Semester? 
+
++ 1 year
+- Ok. One year. Please contact your department coordinator/program. With this email message: \s
+^ "Hello, my name is <get name>, I was admitted to <get term> and I want to defer for one year."\s
+^ Please Copy and Paste this email to your clipboard or into the email box below.
+
+
+
+
+
+
+
 
 
