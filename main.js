@@ -33,7 +33,7 @@ messagesArray = [];
 
 function chat() {
     let userInput = chatInput.value.trim();
-    var reply = bot.reply("local-user", userInput);
+    let reply = bot.reply("local-user", userInput);
     messagesArray.push(userInput);
 
 
