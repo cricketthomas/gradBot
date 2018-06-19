@@ -1,9 +1,15 @@
 // calls to html rivescript
 /* Ideas for accomplishing this. For the chat bot like look and exeperience, i could append each reply 
 into a list then text align each element on the right of left side of the screen or using two columns, 
-i could append one item into one column at a differnet row and increment per reply. Or i could add div elements one after the other or into an array than print div by div.
+i could append one item into one column at a differnet row and increment per reply. Or i could push everything into a div and just print each one conseicutively and color coat every other one a different color. 
+
+
 //console.log("Improvements or suggestions about this chatbot are appreciated, please email thomas iv at umd edu");
 
+Maybe
+else if (i == 0) {
+                console.log("You: " + value);
+            }
 
 */
 
@@ -22,32 +28,36 @@ function main() {
     }
 }
 
-replyArray = [];
-sentMessagesArray = [];
-
+messagesArray = [];
 
 
 function chat() {
     let userInput = chatInput.value.trim();
-    //sentMessagesArray.push(userInput);
-    //reply.innerHTML = userInput;
-    let reply = bot.reply("local-user", userInput);
-    console.log(reply);
+    var reply = bot.reply("local-user", userInput);
+    messagesArray.push(userInput);
+
 
     var promiseReply = Promise.resolve(reply);
     promiseReply.then(function (value) {
-        console.log(value);
+        //console.log(userInput, value);
+        //
+        for (let i = 0; i < messagesArray.length; i++) {
+            if (i % 2) {
+                console.log("You: " + userInput);
+            } else {
+                console.log("bot: " + value);
+            }
+        }
+        messagesArray.push(value);
         let output = document.getElementById("output");
-        replyArray.push(value);
-        //output.innerHTML = replyArray;
+        output.innerHTML = messagesArray;
 
     });
 
+    //alert(messagesArray.length);
+} //chat brace
 
-}
 
-for (let i = 0; i > 0; i++) {
-    console.log(replyArray + " ");
-   // output.innerHTML = replyArray +
 
-}
+
+//  if(i%2===0)

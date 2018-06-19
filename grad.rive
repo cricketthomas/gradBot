@@ -9,7 +9,7 @@
 ! var contact = Do you need help finding your Department/Program contact? Reply: "Find [4 Digit Program Code]"
 
 
-+ hello
++ (hello|hi)
 - Hi, I'm the GradSchool Chatbot. 
 + *
 - I'm not sure how to reply to that.
