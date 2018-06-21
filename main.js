@@ -5,38 +5,19 @@ i could append one item into one column at a differnet row and increment per rep
 
 
 //console.log("Improvements or suggestions about this chatbot are appreciated, please email thomas iv at umd edu");
-
-Resources for next workday: 
-https://stackoverflow.com/questions/5886144/create-divs-from-array-elements
-https://stackoverflow.com/questions/9050345/selecting-last-element-in-javascript-array
-
-
-Old loop. just saving. 
-for (let i = 0; i < userMessagesArray.length; i++) {
-        if (i % 2) {
-            console.log("You: " + userInput);
-        } else {
-            var promiseReply = Promise.resolve(reply);
-            promiseReply.then(function (value) {
-                console.log("bot: " + value);
-                botMessagesArray.push(value);
-            });
-
-
-        }
-    }
-
 */
 
 function main() {
     submit.onclick = chat;
     bot = new RiveScript();
     bot.loadFile("grad.rive", botReady, botError);
+
 }
 
 function botReady() {
     console.log("Chatbot Status: OK");
     bot.sortReplies();
+    pseudo();
 }
 
 function botError(error) {
@@ -45,11 +26,16 @@ function botError(error) {
 
 
 
-
-
-
 botMessagesArray = [];
 userMessagesArray = [];
+messagesJson = {};
+
+
+
+function pseudo() {
+   chat();
+}
+
 
 function chat() {
     // add a do while loop so they cant hit it while blank or only make the button visible then.
@@ -57,25 +43,26 @@ function chat() {
     let reply = bot.reply("local-user", userInput);
     let userOutput = document.getElementById("userOutput");
     let botReply = document.getElementById("botReply");
-    console.log("You: " + userInput);
+    //console.log("You: " + userInput);
     let promiseReply = Promise.resolve(reply);
     promiseReply.then(function (value) {
-        console.log("bot: " + value);
+        //console.log("bot: " + value);
         botMessagesArray.push(value);
         botReply.innerHTML = botMessagesArray;
     });
     userMessagesArray.push(userInput);
+    msgJSON();
     userOutput.innerHTML = userMessagesArray;
-    //alert(messagesArray.length);
     document.getElementById("chatInput").value = ""; //removing entries after button is clicked
-} //chat func
+} //chat function braces
+//}while (chatInput !== null);
 
-function test() { // where i left off. so here, youre trying to concat both arrays so that they can be combined staggered or combined with print one after the other in seperate divs. note above. 
-    //You also remvoed the consolve log div. 
-    //Mabybe make a function that creates a new div and prints the last array element each time. links in comments above. 
-    var arrayConcatTest = userMessagesArray.concat(botMessagesArray);
-    alert(arrayConcatTest.length);
-    alert(arrayConcatTest);
+//this function converts messages to JSON
+function msgJSON() {
+    for (let i = 0; i < userMessagesArray.length && i < botMessagesArray.length; i++) {
+        messagesJson["user " + (i + 1)] = userMessagesArray[i];
+        messagesJson["bot " + (i + 1)] = botMessagesArray[i];
+    }
+    console.log(messagesJson);
 
 }
-//alert(arrayConcatTest.length);
