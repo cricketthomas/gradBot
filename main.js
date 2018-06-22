@@ -26,9 +26,9 @@ function botError(error) {
 
 
 
-botMessagesArray = [];
-userMessagesArray = [];
-messagesJson = {};
+let botMessagesArray = [];
+let userMessagesArray = [];
+let messagesJson = {};
 
 function chat() {
     // add a do while loop so they cant hit it while blank or only make the button visible then.
@@ -69,14 +69,21 @@ function msgJSON() {
 
 
 
-//Write a function that prints an array as a list -- holdoff
-for (let l = 0; l < userMessagesArray.length, l++;) {
-    userOutput.innerHTML = "<li>" + "</li>";
+//Write a function that prints stringified json. 
+let cleanJson = JSON.stringify(messagesJson);
+for (let x = 0; x < userMessagesArray.length, x++;) {
+
 
 }
 
 
 
+for (var key in cleanJson) {
+  if (cleanJson.hasOwnProperty(key)) {
+    var val = cleanJson[key];
+    console.log(val);
+  }
+}
 
 
 
