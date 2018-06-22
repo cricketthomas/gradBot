@@ -30,34 +30,77 @@ botMessagesArray = [];
 userMessagesArray = [];
 messagesJson = {};
 
-
 function chat() {
     // add a do while loop so they cant hit it while blank or only make the button visible then.
     let userInput = chatInput.value.trim();
     let reply = bot.reply("local-user", userInput);
     let userOutput = document.getElementById("userOutput");
     let botReply = document.getElementById("botReply");
+    let test = document.getElementById('test');
+
     //console.log("You: " + userInput);
     let promiseReply = Promise.resolve(reply);
     promiseReply.then(function (value) {
         //console.log("bot: " + value);
         botMessagesArray.push(value);
-        botReply.innerHTML = botMessagesArray;
+        //botReply.innerHTML = botMessagesArray;
         msgJSON();
-
     });
     userMessagesArray.push(userInput);
-    userOutput.innerHTML = userMessagesArray;
+    //userOutput.innerHTML = userMessagesArray;
     document.getElementById("chatInput").value = ""; //removing entries after button is clicked
-} //chat function braces
-//}while (chatInput !== null);
+}
 
-//this function converts messages to JSON
+
+
+
+let count = 0;
+//this function converts messages to JSON or literal?
 function msgJSON() {
     for (let i = 0; i < userMessagesArray.length && i < botMessagesArray.length; i++) {
-        messagesJson["user " + (i + 1)] = userMessagesArray[i];
-        messagesJson["bot " + (i + 1)] = botMessagesArray[i];
+        messagesJson["user" + (i + 1)] = userMessagesArray[i];
+        messagesJson["bot" + (i + 1)] = botMessagesArray[i];
+        count++;
     }
-    console.log(messagesJson);
+    //messagesJson = JSON.stringify(messagesJson);
+    console.log(JSON.stringify(messagesJson));
+    test.innerHTML = JSON.stringify(messagesJson); //maybe print it as json?
+}
+
+
+
+//Write a function that prints an array as a list -- holdoff
+for (let l = 0; l < userMessagesArray.length, l++;) {
+    userOutput.innerHTML = "<li>" + "</li>";
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+function divJson() {
+    Object.keys(messagesJson).forEach(function (key) {
+        for (x in messagesJson) {
+
+
+            console.log("user: " + messagesJson[key]);
+        }
+    });
+    Object.keys(replyJson).forEach(function (key) {
+        console.log("bot: " + replyJson[key]);
+    })
+} */
