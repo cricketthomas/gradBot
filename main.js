@@ -17,7 +17,7 @@ function main() {
 function botReady() {
     console.log("Chatbot Status: OK");
     bot.sortReplies();
-    pseudo();
+    //pseudo();
 }
 
 function botError(error) {
@@ -29,12 +29,6 @@ function botError(error) {
 botMessagesArray = [];
 userMessagesArray = [];
 messagesJson = {};
-
-
-
-function pseudo() {
-   chat();
-}
 
 
 function chat() {
@@ -49,9 +43,10 @@ function chat() {
         //console.log("bot: " + value);
         botMessagesArray.push(value);
         botReply.innerHTML = botMessagesArray;
+        msgJSON();
+
     });
     userMessagesArray.push(userInput);
-    msgJSON();
     userOutput.innerHTML = userMessagesArray;
     document.getElementById("chatInput").value = ""; //removing entries after button is clicked
 } //chat function braces
