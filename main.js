@@ -71,7 +71,7 @@ function msgJSON() {
     console.log(parsedMsg);
     console.log(parsedMsg.user)
     console.log(parsedMsg.bot)
-    newMessage();
+    addElement();
     //userOutput.innerHTML = parsedMsg.user;
     //botReply.innerHTML = parsedMsg.bot;
 }
@@ -79,15 +79,43 @@ function msgJSON() {
 //let userOutput = document.getElementById("userOutput");
 //let botReply = document.getElementById("botReply");
 
-function newMessage() {
-    var table = document.getElementById("conversation");
-    var botRow = document.getElementById("botRow");
-    var row = table.insertRow(-1);
-    var q = row.insertCell(0);
-    var a = row.insertCell(1);
-    a.innerHTML = parsedMsg.bot.slice(-1)[0];   
-    q.innerHTML = parsedMsg.user.slice(-1)[0];
+
+
+function addElement() {
+    //elements
+    botDiv = document.createElement("div");
+    botDiv.className = "botClass";
+    userDiv = document.createElement("div");
+    userDiv.className = "userClass";
+    var currentDiv = document.getElementById('container');
+    //style
+    botDiv.style.color = 'red';
+    userDiv.style.color = 'blue';
+    //content and printing
+    var newContentBot = document.createTextNode(parsedMsg.bot.slice(-1)[0]);
+    var newContentUser = document.createTextNode(parsedMsg.user.slice(-1)[0]);
+    botDiv.appendChild(newContentBot);
+    userDiv.appendChild(newContentUser);
+    document.body.insertBefore(userDiv, currentDiv);
+    //setTimeout(botReply, 200);
+    insertAfter(botDiv, userDiv);
+
 }
+
+function botReply() {
+    insertAfter(botDiv, userDiv);
+}
+
+
+
+function insertAfter(newNode, referenceNode) {
+    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
+}
+
+
+
+
+
 
 //trying to figure out style for each row to be staggered.
 
@@ -132,4 +160,16 @@ function msgJSON_OLD() {
     console.log(msg);
 }
 
-} */
+} 
+function newMessage() {
+    var table = document.getElementById("conversation");
+    var botRow = document.getElementById("botRow");
+    var row = table.insertRow(-1);
+    var q = row.insertCell(0);
+    var a = row.insertCell(1);
+    a.innerHTML = parsedMsg.bot.slice(-1)[0];
+    q.innerHTML = parsedMsg.user.slice(-1)[0];
+}
+
+
+*/

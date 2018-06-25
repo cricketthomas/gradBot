@@ -1,8 +1,12 @@
-table {
-    border: .2em solid black;
+.botClass {
+    font-size: 15pt;
 }
 
-#botRow {
-    margin-top: 20em;
-    background-color: red;
+.userClass {
+    font-size: 15pt;
 }
+
+.convoBox{
+    border: 2px solid black;
+}
+
