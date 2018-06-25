@@ -1,0 +1,8 @@
+table {
+    border: .2em solid black;
+}
+
+#botRow {
+    margin-top: 20em;
+    background-color: red;
+}

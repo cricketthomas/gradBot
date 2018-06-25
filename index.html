@@ -6,8 +6,8 @@
     <title>Graduate School Chatbot</title>
     <script src="main.js"></script>
     <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
-
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body onload="main();">
@@ -22,15 +22,23 @@
 
     <h3>Gradbot reply:</h3>
 
-    <p>
-        <div id="botReply"> </div> </br>
-        <div id="userOutput"></div>
-    </p>
 
+    <table id="conversation">
 
-    <ol>
-        <div id="test"></div>
-    </ol>
+        <tr>
+        
+                <td id="botRow"></td>
+            
+        </tr>
+
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+    <!--
+
+    i think i need to use row span to stagger each elemeent. 
+-->
 
 
     </div>
