@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <title>Graduate School Chatbot</title>
+    <title>Grad School Chatbot</title>
     <script src="main.js"></script>
     <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
@@ -11,35 +11,23 @@
 </head>
 
 <body onload="main();">
-    <h1>Chatbot</h1>
+    <h1>Graduate School Chatbot</h1>
 
-    <h3>Gradbot reply:</h3>
+    <h3>Enter a Message:</h3>
     <div id="container"> </div>
 
-    <label>Your Message:
-        <input type="text" id="chatInput">
-    </label>
-    
-    <!-- https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp-->
+    <div id="chatboxWrapper">
 
-    <button id="submit">Send</button>
-
-
-
-
-
-
-
-
-
-    <!--
-
-    i think i need to use row span to stagger each elemeent. 
--->
-
-
+        <label>Your Message:
+            <input type="text" id="chatInput">
+        </label>
     </div>
+    <!-- https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp-->
+    <button id="submit">Send</button>
+    <!--<input type="text" id = "myInput">     <button id="myBtn">test</button>
 
+    value="Enter a message. Message 'Help' for a command list"-->
+    </div>
 </body>
 
 </html>

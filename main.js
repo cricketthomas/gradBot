@@ -24,6 +24,7 @@ function botError(error) {
     console.log("Chatbot Status: " + error);
 }
 
+//https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
 
 
 let botMessagesArray = [];
@@ -34,7 +35,6 @@ function chat() {
     // add a do while loop so they cant hit it while blank or only make the button visible then.
     let userInput = chatInput.value.trim();
     let reply = bot.reply("local-user", userInput);
-
     //console.log("You: " + userInput);
     let promiseReply = Promise.resolve(reply);
     promiseReply.then(function (value) {
@@ -47,9 +47,6 @@ function chat() {
     //userOutput.innerHTML = userMessagesArray;
     document.getElementById("chatInput").value = ""; //removing entries after button is clicked
 }
-
-
-
 
 let count = 0;
 //this seperates each one into a json format better than i previously had. 
@@ -84,13 +81,16 @@ function msgJSON() {
 function addElement() {
     //elements
     botDiv = document.createElement("div");
-    botDiv.className = "botClass";
+    botDiv.setAttribute('style', "background-color: darksalmon; padding: .3em; margin-bottom: .5em; width: 40vw; text-align: left;  border-radius: 120px 10px / 120px;");
+    //botDiv.className = "botClass";
+    //user div
     userDiv = document.createElement("div");
-    userDiv.className = "userClass";
+    userDiv.setAttribute('style', "background-color: lightblue; padding: .3em; margin-bottom: .5em; width: 40vw; text-align: right; border-radius: 10px 100px / 120px;");
+    //userDiv.className = "userClass";
     var currentDiv = document.getElementById('container');
     //style
-    botDiv.style.color = 'red';
-    userDiv.style.color = 'blue';
+    botDiv.style.color = 'black';
+    userDiv.style.color = 'black';
     //content and printing
     var newContentBot = document.createTextNode(parsedMsg.bot.slice(-1)[0]);
     var newContentUser = document.createTextNode(parsedMsg.user.slice(-1)[0]);

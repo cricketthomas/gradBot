@@ -1,12 +1,50 @@
-.botClass {
-    font-size: 15pt;
+* {
+    margin: auto;
+    font-family: Trebuchet MS;
 }
 
-.userClass {
-    font-size: 15pt;
+h1,
+h3 {
+    margin: auto;
+    text-align: center;
+    margin: .25em;
 }
 
-.convoBox{
-    border: 2px solid black;
+#chatboxWrapper {
+    text-align: center;
+    position: fixed;
+    margin: auto;
+    margin-left: 25vw;
 }
 
+#submit {
+    background-color: white;
+    border: .1em solid black;
+    border-radius: .3em;
+    color: black;
+    padding: 2.2px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 66.5vw;
+    cursor: pointer;
+    text-align: center;
+    position: fixed;
+}
+
+#submit:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+body {
+    background-color: aliceblue;
+    overflow: auto;
+}
+
+#chatInput {
+    width: 35vw;
+    margin: auto;
+   
+}
