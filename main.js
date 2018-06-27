@@ -78,13 +78,23 @@ function msgJSON() {
 
 
 
+//jquery functions to wrap http://api.jquery.com/wrapall/
+
+$("inner", "container").wrapAll("<div class = 'new'> </div>");
+
+
+
+
+
 function addElement() {
     //elements
     botDiv = document.createElement("div");
+    botDiv.classList.add("inner");
     botDiv.setAttribute('style', "background-color: darksalmon; padding: .3em; margin-bottom: .5em; width: 40vw; text-align: left;  border-radius: 120px 10px / 120px;");
     //botDiv.className = "botClass";
     //user div
     userDiv = document.createElement("div");
+    userDiv.classList.add("inner");
     userDiv.setAttribute('style', "background-color: lightblue; padding: .3em; margin-bottom: .5em; width: 40vw; text-align: right; border-radius: 10px 100px / 120px;");
     //userDiv.className = "userClass";
     var currentDiv = document.getElementById('container');

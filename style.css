@@ -46,5 +46,14 @@ body {
 #chatInput {
     width: 35vw;
     margin: auto;
-   
+}
+
+.inner {
+    border: .2em solid gainsboro;
+    background-color: red;
+}
+
+.new {
+    background-color: black;
+    width: 30px;
 }
