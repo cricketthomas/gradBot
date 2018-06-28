@@ -11,7 +11,7 @@ function main() {
     submit.onclick = chat;
     bot = new RiveScript();
     bot.loadFile("grad.rive", botReady, botError);
-
+    wrapperFunc();
 }
 
 function botReady() {
@@ -78,30 +78,18 @@ function msgJSON() {
 
 
 
-//jquery functions to wrap http://api.jquery.com/wrapall/
-
-$("inner", "container").wrapAll("<div class = 'new'> </div>");
-
-
-
-
 
 function addElement() {
     //elements
     botDiv = document.createElement("div");
     botDiv.classList.add("inner");
-    botDiv.setAttribute('style', "background-color: darksalmon; padding: .3em; margin-bottom: .5em; width: 40vw; text-align: left;  border-radius: 120px 10px / 120px;");
-    //botDiv.className = "botClass";
-    //user div
+    botDiv.setAttribute('style', "background-color: darksalmon; text-align: left;  border-radius: 120px 10px / 120px;");
     userDiv = document.createElement("div");
     userDiv.classList.add("inner");
-    userDiv.setAttribute('style', "background-color: lightblue; padding: .3em; margin-bottom: .5em; width: 40vw; text-align: right; border-radius: 10px 100px / 120px;");
-    //userDiv.className = "userClass";
+    userDiv.setAttribute('style', "background-color: lightblue; text-align: right; border-radius: 10px 100px / 120px;");
     var currentDiv = document.getElementById('container');
-    //style
     botDiv.style.color = 'black';
     userDiv.style.color = 'black';
-    //content and printing
     var newContentBot = document.createTextNode(parsedMsg.bot.slice(-1)[0]);
     var newContentUser = document.createTextNode(parsedMsg.user.slice(-1)[0]);
     botDiv.appendChild(newContentBot);
@@ -109,22 +97,32 @@ function addElement() {
     document.body.insertBefore(userDiv, currentDiv);
     //setTimeout(botReply, 200);
     insertAfter(botDiv, userDiv);
-
+    wrapperFunc();
 }
 
 function botReply() {
     insertAfter(botDiv, userDiv);
 }
 
-
-
 function insertAfter(newNode, referenceNode) {
     referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
 }
 
+//jquery functions to wrap http://api.jquery.com/wrapall/
+
+function wrapperFunc() {
+    let wrapper = "<div class='wrapper'></div>";
+    $("div.inner").wrapAll(wrapper);
+}
 
 
-
+function scroll() {
+    $(document).ready(function () {
+        $('#inner').animate({
+            scrollTop: $('#inner')[0].scrollHeight
+        }, 2000);
+    });
+}
 
 
 //trying to figure out style for each row to be staggered.

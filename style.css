@@ -10,7 +10,7 @@ h3 {
     margin: .25em;
 }
 
-#chatboxWrapper {
+#container {
     text-align: center;
     position: fixed;
     margin: auto;
@@ -49,11 +49,19 @@ body {
 }
 
 .inner {
-    border: .2em solid gainsboro;
-    background-color: red;
+    border: .25em solid gainsboro;
+    padding: .3em;
+    margin-bottom: .5em;
+    width: 40vw;
 }
 
-.new {
-    background-color: black;
-    width: 30px;
+
+.wrapper {
+    background-color: lavender;
+    width: 45vw;
+    overflow: auto;
+    height: 80vh;
+    border-radius: 1.25em;
+    font-size: 12pt;
+
 }
