@@ -5,13 +5,14 @@ i could append one item into one column at a differnet row and increment per rep
 
 
 //console.log("Improvements or suggestions about this chatbot are appreciated, please email thomas iv at umd edu");
+
+I LOVE Jquery!!!!!!
 */
 
 function main() {
     submit.onclick = chat;
     bot = new RiveScript();
     bot.loadFile("grad.rive", botReady, botError);
-    wrapperFunc();
 }
 
 function botReady() {
@@ -29,7 +30,7 @@ function botError(error) {
 
 let botMessagesArray = [];
 let userMessagesArray = [];
-var messagesJson = {};
+let messagesJson = {};
 
 function chat() {
     // add a do while loop so they cant hit it while blank or only make the button visible then.
@@ -51,12 +52,12 @@ function chat() {
 let count = 0;
 //this seperates each one into a json format better than i previously had. 
 function msgJSON() {
-    var message = ['user', 'bot'];
-    var messages = [userMessagesArray, botMessagesArray];
+    let message = ['user', 'bot'];
+    let messages = [userMessagesArray, botMessagesArray];
 
     function arrMerge(key, value) {
-        var object = {};
-        for (var i = 0; i < key.length; i++) {
+        let object = {};
+        for (let i = 0; i < key.length; i++) {
             object[key[i]] = value[i];
             count++;
         }
@@ -76,58 +77,40 @@ function msgJSON() {
 //let userOutput = document.getElementById("userOutput");
 //let botReply = document.getElementById("botReply");
 
-
-
-
 function addElement() {
-    //elements
     botDiv = document.createElement("div");
     botDiv.classList.add("inner");
     botDiv.setAttribute('style', "background-color: darksalmon; text-align: left;  border-radius: 120px 10px / 120px;");
     userDiv = document.createElement("div");
     userDiv.classList.add("inner");
     userDiv.setAttribute('style', "background-color: lightblue; text-align: right; border-radius: 10px 100px / 120px;");
-    var currentDiv = document.getElementById('container');
     botDiv.style.color = 'black';
     userDiv.style.color = 'black';
-    var newContentBot = document.createTextNode(parsedMsg.bot.slice(-1)[0]);
-    var newContentUser = document.createTextNode(parsedMsg.user.slice(-1)[0]);
+    let newContentBot = document.createTextNode(parsedMsg.bot.slice(-1)[0]);
+    let newContentUser = document.createTextNode(parsedMsg.user.slice(-1)[0]);
     botDiv.appendChild(newContentBot);
     userDiv.appendChild(newContentUser);
-    document.body.insertBefore(userDiv, currentDiv);
-    //setTimeout(botReply, 200);
-    insertAfter(botDiv, userDiv);
-    wrapperFunc();
+    $('.wrapper').append($(userDiv));
+    $('.wrapper').append($(botDiv));
+    //setTimeout(botReply, 500);
+
+    $(".wrapper").scrollTop($(".wrapper")[0].scrollHeight);
 }
+
 
 function botReply() {
-    insertAfter(botDiv, userDiv);
+    $('.wrapper').append($(botDiv));
 }
 
-function insertAfter(newNode, referenceNode) {
-    referenceNode.parentNode.insertBefore(newNode, referenceNode.nextSibling);
-}
 
+
+
+/* 
 //jquery functions to wrap http://api.jquery.com/wrapall/
-
 function wrapperFunc() {
     let wrapper = "<div class='wrapper'></div>";
     $("div.inner").wrapAll(wrapper);
 }
-
-
-function scroll() {
-    $(document).ready(function () {
-        $('#inner').animate({
-            scrollTop: $('#inner')[0].scrollHeight
-        }, 2000);
-    });
-}
-
-
-//trying to figure out style for each row to be staggered.
-
-/* 
 
 //playground for new methods. 
 //Write a function that prints stringified json. 
