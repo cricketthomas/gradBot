@@ -1,6 +1,13 @@
 * {
     margin: auto;
     font-family: Trebuchet MS;
+    font-size: 1.1vh 1.1vw;
+}
+
+body {
+    background-color: aliceblue;
+    overflow: auto;
+    padding-bottom: 2em;
 }
 
 h1,
@@ -11,58 +18,64 @@ h3 {
 }
 
 #container {
+    padding: .5em .5em 0em 0em;
     text-align: center;
-    position: fixed;
     margin: auto;
-    margin-left: 25vw;
-}
-
-#submit {
-    background-color: white;
-    border: .1em solid black;
-    border-radius: .3em;
-    color: black;
-    padding: 2.2px 4px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    margin-left: 66.5vw;
-    cursor: pointer;
-    text-align: center;
-    position: fixed;
-}
-
-#submit:hover {
-    background-color: lightgray;
-    color: black;
-}
-
-body {
-    background-color: aliceblue;
-    overflow: auto;
 }
 
 #chatInput {
-    width: 35vw;
-    margin: auto;
+    padding: .2em 0em 0em 0em;
+    width: 30vw;
+    height: 4vh;
+    border: .4em solid gainsboro;
 }
 
-.inner {
-    border: .25em solid gainsboro;
-    padding: .3em;
+#submit {
+    background-color: azure;
+    border: .4em solid gainsboro;
+    color: black;
+    border-radius: .3em;
+    font-size: 12px;
+    padding: .5em 2em .5em 2em;
+    text-align: center;
+    cursor: pointer;
+    text-align: center;
+}
+
+#submit:hover {
+    background-color: aqua;
+    color: black;
+}
+
+.innerBot {
+    border: .09em solid gainsboro;
+    background-color: darksalmon;
+    border-radius: 80px 10px / 150px;
     margin-bottom: .5em;
-    width: 40vw;
+    max-width: 25vw;
+    padding: 1em;
+    display: inline-block;
+    text-align: left;
 }
 
+.innerUser {
+    border: .09em solid gainsboro;
+    background-color: lightblue;
+    border-radius: 10px 90px / 150px;
+    max-width: 25vw;
+    padding: 1em;
+    display: inline-block;
+    float: right !important;
+    overflow: hidden;
+
+}
 
 .wrapper {
     background-color: lavender;
-    height: 80vh;
-    width: 45vw;
+    border: .5em solid gainsboro;
+    height: 75vh;
+    width: 35vw;
     overflow-y: auto;
-    font-size: 12pt;
-    border-radius: 1.25em;
-   padding: 1em 0em .5em 0em;
-
+    border-radius: .5em;
+    padding: 1em 2em 1em 1.5em;
 }

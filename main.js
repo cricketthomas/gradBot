@@ -1,18 +1,17 @@
 // calls to html rivescript
-/* Ideas for accomplishing this. For the chat bot like look and exeperience, i could append each reply 
-into a list then text align each element on the right of left side of the screen or using two columns, 
-i could append one item into one column at a differnet row and increment per reply. Or i could push everything into a div and just print each one conseicutively and color coat every other one a different color. 
-
-
-//console.log("Improvements or suggestions about this chatbot are appreciated, please email thomas iv at umd edu");
-
-I LOVE Jquery!!!!!!
-*/
+/* I LOVE Jquery!!!!!!*/
 
 function main() {
     submit.onclick = chat;
     bot = new RiveScript();
     bot.loadFile("grad.rive", botReady, botError);
+
+    $("#chatInput").on('keyup', function (chatEvent) {
+        if (chatEvent.keyCode == 13) {
+            chat();
+        }
+    }); //https://api.jquery.com/keyup/
+
 }
 
 function botReady() {
@@ -27,7 +26,6 @@ function botError(error) {
 
 //https://www.w3schools.com/howto/howto_js_trigger_button_enter.asp
 
-
 let botMessagesArray = [];
 let userMessagesArray = [];
 let messagesJson = {};
@@ -41,11 +39,9 @@ function chat() {
     promiseReply.then(function (value) {
         //console.log("bot: " + value);
         botMessagesArray.push(value);
-        //botReply.innerHTML = botMessagesArray;
         msgJSON();
     });
     userMessagesArray.push(userInput);
-    //userOutput.innerHTML = userMessagesArray;
     document.getElementById("chatInput").value = ""; //removing entries after button is clicked
 }
 
@@ -70,40 +66,36 @@ function msgJSON() {
     console.log(parsedMsg.user)
     console.log(parsedMsg.bot)
     addElement();
-    //userOutput.innerHTML = parsedMsg.user;
-    //botReply.innerHTML = parsedMsg.bot;
 }
-
-//let userOutput = document.getElementById("userOutput");
-//let botReply = document.getElementById("botReply");
 
 function addElement() {
     botDiv = document.createElement("div");
-    botDiv.classList.add("inner");
-    botDiv.setAttribute('style', "background-color: darksalmon; text-align: left;  border-radius: 120px 10px / 120px;");
+    botDiv.classList.add("innerBot");
     userDiv = document.createElement("div");
-    userDiv.classList.add("inner");
-    userDiv.setAttribute('style', "background-color: lightblue; text-align: right; border-radius: 10px 100px / 120px;");
-    botDiv.style.color = 'black';
-    userDiv.style.color = 'black';
+    userDiv.classList.add("innerUser");
     let newContentBot = document.createTextNode(parsedMsg.bot.slice(-1)[0]);
     let newContentUser = document.createTextNode(parsedMsg.user.slice(-1)[0]);
     botDiv.appendChild(newContentBot);
     userDiv.appendChild(newContentUser);
     $('.wrapper').append($(userDiv));
+    $('.wrapper').append($("<br /><br />"));
     $('.wrapper').append($(botDiv));
     //setTimeout(botReply, 500);
-
+    $('.wrapper').append($("<br /><br />"));
     $(".wrapper").scrollTop($(".wrapper")[0].scrollHeight);
-}
 
+}
 
 function botReply() {
     $('.wrapper').append($(botDiv));
+    $('.wrapper').append($("<br>"));
 }
 
 
 
+
+
+console.log("Improvements or suggestions about this chatbot are appreciated, please email thomas iv at umd edu");
 
 /* 
 //jquery functions to wrap http://api.jquery.com/wrapall/
@@ -111,6 +103,17 @@ function wrapperFunc() {
     let wrapper = "<div class='wrapper'></div>";
     $("div.inner").wrapAll(wrapper);
 }
+
+//trigger enter
+$("#chatInput").on('keyup', function (e) {
+    if (e.keyCode == 13) {
+        chat();
+    }
+});
+
+console.log("Improvements or suggestions about this chatbot are appreciated, please email thomas iv at umd edu");
+
+
 
 //playground for new methods. 
 //Write a function that prints stringified json. 
