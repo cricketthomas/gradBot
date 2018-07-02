@@ -2,6 +2,7 @@
     * {
         margin: auto;
         font-family: Trebuchet MS;
+        font-size: 10pt;
     }
     body {
         background-color: aliceblue;
@@ -56,9 +57,9 @@
         border: .09em solid gainsboro;
         background-color: darksalmon;
         border-radius: 80px 10px / 150px;
-        margin-bottom: .1em;
-        max-width: 25vw;
-        padding: 1em;
+        margin-bottom: .15em;
+        max-width: 70vw;
+        padding: 1.5em;
         display: inline-block;
         text-align: left;
     }
@@ -67,8 +68,8 @@
         border: .09em solid gainsboro;
         background-color: lightblue;
         border-radius: 10px 90px / 150px;
-        max-width: 25vw;
-        padding: 1em;
+        max-width: 70vw;
+        padding: 1.5em;
         display: inline-block;
         float: right !important;
         overflow: hidden;
