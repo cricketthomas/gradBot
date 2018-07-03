@@ -18,7 +18,7 @@
 
 //saving infromation
 + my name is * 
-- Hello,<set name=<star>> <get name>
+- Hello,<set name=<formal>> <get name>
 
 + what is my name
 * <get name> == undefined => You never told me your name.
@@ -30,7 +30,7 @@
 //previous discussions
 
 //Deferrals
-+ (i need help with deferrals|defer|defferals|deferral)
++ i need help with (deferrals|defer|deferals|deferral|deferal)
 - When were you admitted?
 
 + * 
@@ -49,5 +49,7 @@
 
 
 
++ help
+- ...
 
 
