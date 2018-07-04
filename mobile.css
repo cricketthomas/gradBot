@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 780px) {
     * {
         margin: auto;
         font-family: Trebuchet MS;
@@ -8,13 +8,13 @@
         background-color: aliceblue;
         overflow: hidden;
         size: 100%;
+        position: fixed;
     }
     h1 {
         margin: 0em auto;
         text-align: center;
         font-size: 15pt;
         height: 1vh;
-
     }
     h3 {
         visibility: hidden;
@@ -30,7 +30,7 @@
     #chatInput {
         padding: 0em 0em 0em 0em;
         width: 100vw;
-        height: 11.6vh;
+        height: 12vh;
         font-size: 12pt;
         border: .1em solid gainsboro;
         overflow-x: hidden;
@@ -51,6 +51,9 @@
         visibility: hidden;
         background-color: aqua;
         color: black;
+    }
+    #guide {
+        visibility: hidden;
     }
     .innerBot {
         font-size: 12px;
@@ -81,18 +84,23 @@
         border-right: none;
         border-left: none;
         width: 95vw;
-        height: 80vh;
+        height: 82vh;
         overflow-y: auto;
         overflow-x: hidden;
         border-radius: .2em;
         padding: .5em .5em 1em 1em;
     }
-
-    input, input:before, input:after {
+    input,
+    input:before,
+    input:after {
         -webkit-user-select: initial;
         -khtml-user-select: initial;
         -moz-user-select: initial;
         -ms-user-select: initial;
         user-select: initial;
-       } 
+    }
+    footer,
+    a {
+        visibility: hidden;
+    }
 }

@@ -11,7 +11,6 @@ function main() {
             chat();
         }
     }); //https://api.jquery.com/keyup/
-
 }
 
 function botReady() {
@@ -83,7 +82,6 @@ function addElement() {
     //setTimeout(botReply, 500);
     $('.wrapper').append($("<br /><br />"));
     $(".wrapper").scrollTop($(".wrapper")[0].scrollHeight);
-
 }
 
 function botReply() {
@@ -91,11 +89,10 @@ function botReply() {
     $('.wrapper').append($("<br>"));
 }
 
-
-
-
-
 console.log("Improvements or suggestions about this chatbot are appreciated, please email thomas iv at umd edu");
+
+
+
 
 /* 
 //jquery functions to wrap http://api.jquery.com/wrapall/

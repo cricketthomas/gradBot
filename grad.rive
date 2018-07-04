@@ -4,7 +4,7 @@
 ! version = 2.0
 
 
-
+! local concat = newline
 
 ! var contact = Do you need help finding your Department/Program contact? Reply: "Find [4 Digit Program Code]"
 
@@ -13,6 +13,11 @@
 - Hi, I'm the GradSchool Chatbot. 
 + *
 - I'm not sure how to reply to that.
+- Type 'Help' for a list of functions
+- I don't understand.. Read our guide?
+- I'm doing my best, but I don't know how to reply.
+- Please read our guide or type 'help'.
+- I didn't understand that message, you can email suggestions in. 
 //+ my name is * * 
 //- Hello <star2>, <star1>!
 
@@ -48,8 +53,14 @@
 
 
 
-
 + help
-- ...
+- 1. Deferring Admission? Type: 'Defer'
+^ 2. Looking for a fee waiver? 'waiver'
+^ 3. Petition for program change or regulation change? 'Petition'  
+^ 4. 
 
+// Tell the parser to join continuation lines with line brea
+// Now we don't need to explicitly write the \n characters every time!
 
++ google *
+- Google search: <a href='http://google.com/search?q=<star>'>Click Here</a>
