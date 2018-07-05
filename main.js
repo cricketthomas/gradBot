@@ -3,6 +3,7 @@
 
 function main() {
     submit.onclick = chat;
+    guide.onclick = guideBtn;
     bot = new RiveScript();
     bot.loadFile("grad.rive", botReady, botError);
 
@@ -92,7 +93,10 @@ function botReply() {
 console.log("Improvements or suggestions about this chatbot are appreciated, please email thomas iv at umd edu");
 
 
-
+function guideBtn(){
+    document.getElementById("chatInput").value = "help";
+    chat();
+}
 
 /* 
 //jquery functions to wrap http://api.jquery.com/wrapall/

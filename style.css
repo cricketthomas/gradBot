@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: aliceblue;
+    background-color: white;
     overflow: hidden;
     padding-bottom: 2em;
 }
@@ -24,21 +24,27 @@ h3 {
 }
 
 #chatInput {
+    margin-top: .3em;
     padding: 0em 5em 0em 0em;
-    width: 40.1vw;
+    min-width: 39vw;
+    max-width: 45vw;
     height: 4vh;
-    border: .31em solid gainsboro;
-    border-top: 0;
+    border: .15em solid #52000A;
     border-radius: .3em;
     display: inline-block;
     display: block;
-    margin-top: -2em;
     position: relative;
+    -webkit-box-shadow: 2.5px 2px 1px 1px #52000A;
+    -moz-box-shadow: 2.5px 2px 1px 1px #52000A;
+    box-shadow: 2.5px 2px 1px 1px #52000A;
 }
 
 #submit {
-    background-color: azure;
-    border: .25em solid gainsboro;
+    background-color: whitesmoke;
+    border: .25em solid #52000A;
+    -webkit-box-shadow:  3.5px 1px 1px 5px #52000A;
+    -moz-box-shadow:  3.5px 1px 1px 5px #52000A;
+    box-shadow: 3.5px 1px 1px 1px #52000A;
     color: black;
     border-radius: .3em;
     font-size: .8em;
@@ -48,23 +54,28 @@ h3 {
     text-align: center;
     cursor: pointer;
     text-align: center;
-    margin-top: -1em;
+    margin-top: .5em;
+    min-width: 9vw;
 }
 
 #guide {
-    background-color: azure;
-    border: .25em solid gainsboro;
+    background-color: whitesmoke;
+    border: .25em solid #52000A;
+    -webkit-box-shadow:  3.5px 1px 1px 5px #52000A;
+    -moz-box-shadow:  3.5px 1px 1px 5px #52000A;
+    box-shadow: 3px 1px 1px 1px #52000A;
     color: black;
     font-size: .8em;
     border-radius: .3em;
-    border-right: 0;
+    border-top-right-radius: 0;
     padding: .5em 2em .5em 2em;
     text-align: center;
     cursor: pointer;
     text-align: center;
-    margin-top: -1em;
-    margin-right: -1em;
-    width: 5vw;
+    margin-top: .5em;
+    margin-right: -.1em;
+    min-width: 9vw;
+    
 }
 
 #submit:hover {
@@ -75,11 +86,6 @@ h3 {
 #guide:hover {
     background-color: lavenderblush;
     color: black;
-}
-
-#btnBackground {
-    background-color: azure;
-    border: .25em solid gainsboro;
 }
 
 .innerBot {
@@ -105,18 +111,22 @@ h3 {
 }
 
 .wrapper {
-    background-color: lavender;
-    border: .25em solid gainsboro;
+    background-color: whitesmoke;
     border-bottom: 0;
     height: 75vh;
     width: 40vw;
     overflow-y: auto;
-    border-radius: .5em;
+    border-radius: .3em;
     padding: 1em 2em 1em 1.5em;
+    -webkit-box-shadow:  3.5px 1px 1px 5px #52000A;
+    -moz-box-shadow:  3.5px 1px 1px 5px #52000A;
+    box-shadow: 3.5px 1px 1px 5px #52000A;
+    word-break: break-word;
 }
 
 footer {
-    margin-top: 3vh;
+    margin-top: 1.5vh;
+    margin-bottom: 1vh;
     padding-bottom: 31vh;
     text-align: center;
     font: 12pt lightgray;
@@ -124,4 +134,10 @@ footer {
 
 a {
     padding: 1em;
+}
+
+#policy{
+    color: red;
+    font-size: 7pt;
+    text-decoration: underline;
 }

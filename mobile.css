@@ -1,14 +1,13 @@
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 480px) {
     * {
         margin: auto;
         font-family: Trebuchet MS;
         font-size: 10pt;
     }
     body {
-        background-color: aliceblue;
+        background-color: white;
         overflow: hidden;
         size: 100%;
-        position: fixed;
     }
     h1 {
         margin: 0em auto;
@@ -30,10 +29,11 @@
     #chatInput {
         padding: 0em 0em 0em 0em;
         width: 100vw;
-        height: 12vh;
+        height: 10vh;
         font-size: 12pt;
-        border: .1em solid gainsboro;
-        overflow-x: hidden;
+        border: .1em solid black;
+        box-shadow: none;
+
     }
     #submit {
         visibility: hidden;
@@ -78,9 +78,9 @@
         overflow: hidden;
     }
     .wrapper {
-        background-color: lavender;
-        border-top: solid gainsboro;
-        border-bottom: solid gainsboro;
+        background-color: whitesmoke;
+        border-top: solid black;
+        border-bottom: solid black;
         border-right: none;
         border-left: none;
         width: 95vw;
@@ -89,6 +89,8 @@
         overflow-x: hidden;
         border-radius: .2em;
         padding: .5em .5em 1em 1em;
+        box-shadow: none;
+        word-break: break-word;
     }
     input,
     input:before,
