@@ -39,7 +39,7 @@
 - Deferring: When were you admitted?
 
 + * 
-% when were you admitted
+% deferring when were you admitted
 - Current Term: <set term=<star>> <get term>. how long do you want to defer for? \s
 ^ 1 year? or 1 Semester? 
 
@@ -47,6 +47,17 @@
 - Ok. One year. Please contact your department coordinator/program. With this email message: \s
 ^ "Hello, my name is <get name>, I was admitted to <get term> and I want to defer for one year."\s
 ^ Please Copy and Paste this email to your clipboard. 
+
+
+
+
+
+
+
+
+
+
+
 
 //Waivers
 + (waiver|waivers|waive|fee)
@@ -158,6 +169,7 @@
 ! sub r         = are
 ! sub n         = and
 ! sub im        = i am
+! sub i'm       = i am
 ! sub wat       = what
 ! sub wats      = what is
 ! sub ohh       = oh
