@@ -60,11 +60,12 @@
 
 
 //Waivers
-+ (waiver|waivers|waive|fee)
++ (waiver|waivers|waive|fee|2)
 - The Graduate School waives the application fee  \s
 ^ for applicants from the following organizations  \s
 ^ and/or preparatory programs:  \s
 ^ https://gradschool.umd.edu/feewaivereligibility
+^ A signed letter from the program 
 
 //Forms
 + (petition|forms|form|petitions)
@@ -80,6 +81,8 @@
 ^ Just copy and paste them here and we'll let you know who you
 ^ you need to talk to for help or information. 
 
+// all program contacts
+
 
 
 
@@ -94,8 +97,8 @@
 ^ 5. Looking for Froms? Type 'Forms' \s
 ^ 6. Application login page? type 'Login' \s
 ^ 7. Looking for Deadlines? type 'Deadlines' \s
-^ 8. Technical App issues? Email gradschool@umd.edu.
-^ We can help with a lot, but not password resets/glitches. 
+^ 8. Technical App issues? Email gradschool@umd.edu. \s
+^ We can help with a lot, but not password resets/glitches. \s
 ^ 9. Function not listed? Email us! \s
 // Tell the parser to join continuation lines with line brea
 // Now we don't need to explicitly write the \n characters every time!

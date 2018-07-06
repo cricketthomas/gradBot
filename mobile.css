@@ -6,8 +6,11 @@
     }
     body {
         background-color: white;
-        position: absolute;
+        position: sticky;
+        overflow-y: hidden;
         size: 100%;
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
     h1 {
         margin: 0em auto;
