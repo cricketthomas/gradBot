@@ -6,8 +6,7 @@
     }
     body {
         background-color: white;
-        overflow: hidden;
-        position: fixed;
+        position: absolute;
         size: 100%;
     }
     h1 {
@@ -29,12 +28,12 @@
     }
     #chatInput {
         padding: 0em 0em 0em 0em;
-        min-width: 99vw;
-        max-height: 16vh;
-        font-size: 10pt;
-        border: .15em solid black;
-        box-shadow: none;
-        position: fixed;
+        min-width: 90vw;
+        max-width: 45vw;
+        height: 7vh;
+        border: .15em solid #52000A;
+        border-radius: .3em;
+        box-shadow: 2.5px 2px 1px 1px #52000A;
     }
     #submit {
         visibility: hidden;
@@ -48,7 +47,6 @@
         cursor: pointer;
         text-align: center;
         box-shadow: none;
-
     }
     #submit:hover {
         visibility: hidden;
@@ -58,7 +56,6 @@
     #guide {
         visibility: hidden;
         box-shadow: none;
-
     }
     .innerBot {
         font-size: 12px;
@@ -106,12 +103,8 @@
         -ms-user-select: initial;
         user-select: initial;
     }
-    
-    a {
+    a,
+    footer {
         visibility: hidden;
-    }
-
-    #policy{
-        font-size: 1pt !important;
     }
 }
