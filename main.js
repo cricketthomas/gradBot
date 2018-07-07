@@ -62,7 +62,7 @@ function msgJSON() {
     let messagesCombination = arrMerge(message, messages);
     let json = JSON.stringify(messagesCombination);
     parsedMsg = JSON.parse(json)
-    console.log(parsedMsg);
+    console.table(parsedMsg);
     console.log(parsedMsg.user)
     console.log(parsedMsg.bot)
     addElement();

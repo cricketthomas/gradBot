@@ -1,0 +1,100 @@
+﻿R	P	Collection Time	Source Url	Url	Column 6	Column 7	Column 8	Column 9
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/architectureplanningpreservation/aahp	Applied Anthropology and Historic Preservation	AAHP	Architecture	MAA/MHP
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/amsc	Applied Mathematics	AMSC	Computer/Mathematical and Natural Sciences	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/artshumanities/amst	American Studies	AMST	Arts and Humanities	PhD, MA
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/agriculturenatural-resources/ansc	Animal and Avian Sciences	ANSC	Agriculture and Natural Resources	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/behavioralsocial-sciences/anth	Anthropology	ANTH	Behavioral and Social Sciences	MAA, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/aosc	Atmospheric and Oceanic Science	AOSC	Computer/Mathematical and Natural Sciences	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/architectureplanningpreservation/arch	Architecture	ARCH	Architecture	MArch, MS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/architectureplanningpreservation/arcp	Architecture and Community Planning	ARCP	Architecture	MArch/MCP
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/architectureplanningpreservation/ardv	Architecture and Real Estate Development	ARDV	Architecture	MArch/MRED
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/agriculturenatural-resources/arec	Agricultural and Resource Economics	AREC	Agriculture and Natural Resources	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/architectureplanningpreservation/arhp	Architecture and Historic Preservation	ARHP	Architecture	MHP/MArch
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/artshumanities/arth	Art History and Archeology	ARTH	Arts and Humanities	MA, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/astr	Astronomy	ASTR	Computer/Mathematical and Natural Sciences	PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	http://sph.umd.edu/degrees/mph-behavioral-and-community-health	Behavioral and Community Health*	BCHL/MBCH	Public Health	PhD, MPH
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/bchm	Biochemistry	BCHM	Computer/Mathematical and Natural Sciences	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/bioe	Bioengineering	BIOE	Engineering - Research	PhD, MS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	http://sph.umd.edu/degrees/mph-biostatistics	Biostatistics*	BIOS	Public Health	MPH
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/biph	Biophysics	BIPH	Computer/Mathematical and Natural Sciences	PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/bisi	Biological Sciences	BISI	Computer/Mathematical and Natural Sciences	PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://www.rhsmith.umd.edu/programs/ms-accounting	Accounting**	BMAC	Business	MS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://www.rhsmith.umd.edu/programs/ms-business-analytics	Business Analytics**	BMAN	Business	MS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://www.rhsmith.umd.edu/programs	Business Administration**	BMBA/OMBA/EMBA CMBA	Business	MBA
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://www.rhsmith.umd.edu/programs/ms-business-management	Business and Management**	BMSB	Business	MS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/business/bphd	Business and Management	BPHD	Business	PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/behavioralsocial-sciences/caud	Audiology (Clinical)	CAUD	Behavioral and Social Sciences	AuD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/chem	Chemistry	CHEM	Computer/Mathematical and Natural Sciences	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/chph	Chemical Physics	CHPH	Computer/Mathematical and Natural Sciences	PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/behavioralsocial-sciences/cjch	Criminology and Criminal Justice - China	CJCH	Behavioral and Social Sciences	MA
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/artshumanities/clas	Classics	CLAS	Arts and Humanities	MA
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/clfs	Chemical and Life Sciences (online)	CLFS	Computer/Mathematical and Natural Sciences	MCLFS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/artshumanities/cmlt	Comparative Literature	CMLT	Arts and Humanities	PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/architectureplanningpreservation/cmpl	Community Planning	CMPL	Architecture	MCP
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/cmsc	Computer Science	CMSC	Computer/Mathematical and Natural Sciences	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/education/cocp	Counseling Psychology	COCP	Education	PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z		Department/Program	Code	School/College	Degree
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/artshumanities/comm	Communication	COMM	Arts and Humanities	PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/architectureplanningpreservation/cphp	Community Planning and Historic Preservation	CPHP	Architecture	MHP/MCP
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/behavioralsocial-sciences/crim	Criminology and Criminal Justice	CRIM	Behavioral and Social Sciences	MA, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/artshumanities/crwr	Creative Writing	CRWR	Arts and Humanities	MFA
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/artshumanities/danc	Dance	DANC	Arts and Humanities	MFA
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/behavioralsocial-sciences/econ	Economics	ECON	Behavioral and Social Sciences	PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/education/edci-ma	Curriculum and Instruction	EDCI	Education	MA
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/education/edci-med	Curriculum and Instruction	EDCI	Education	MEd
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/education/edci-med-cert	Curriculum and Instruction	EDCI	Education	MEd with Certification
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/education/edps	Education Policy Studies	EDPS	Education	MA
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/enae	Aerospace Engineering	ENAE	Engineering - Research	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/ence	Civil and Environmental Engineering	ENCE	Engineering - Research	PhD, MS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/ench	Chemical and Biomolecular Engineering	ENCH	Engineering - Research	PhD, MS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/enee	Electrical and Computer Engineering	ENEE	Engineering - Research	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/artshumanities/engl	English	ENGL	Arts and Humanities	PhD, MA
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/agriculturenatural-resources/enst	Environmental Science and Technology	ENST	Agriculture and Natural Resources	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/entm	Entomology	ENTM	Computer/Mathematical and Natural Sciences	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/public-health/envh	Environmental Health Sciences	ENVH	Public Health	MS, PhD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/public-health/fcft	Couple and Family Therapy	FCFT	Public Health	MS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/admissions/non-degree-admissions		For information about applying as a Non-Degree Seeking Student (NDSS) go here.		
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/architectureplanningpreservation/lcpl	Community Planning and Law	LCPL	Architecture	MCP/JD
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/meng-online	Bioengineering (online)	MEBI	Engineering - Professional	MEng
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/meng-online	Cybersecurity (online)	MECY	Engineering - Professional	MEng
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	http://sph.umd.edu/degrees/mph-environmental-health-sciences	Environmental Health Sciences*	MIEH	Public Health	MPH
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/mpae	Applied Entomology	MPAE	Computer/Mathematical and Natural Sciences	MPS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/mpao	Atmospheric and Oceanic Science and Technology	MPAO	Computer/Mathematical and Natural Sciences - Professional	MPS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/interdisciplinary-programs-centers/mpci	Corporate Innovation (online)	MPCI	Interdisciplinary Programs/Centers	MPS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/behavioralsocial-sciences/mpec	Applied Economics (Off-Campus)	MPEC	Behavioral and Social Sciences	MPS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/behavioralsocial-sciences/mpem	Applied Economics (On-Campus)	MPEM	Behavioral and Social Sciences	MPS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/behavioralsocial-sciences/mpps	Clinical Psychological Science	MPPS	Behavioral and Social Sciences	MPS
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/meng-campus	Aerospace Engineering	PMAE	Engineering - Professional	MEng
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/meng-campus	Additive Manufacturing	PMAM	Engineering - Professional	MEng
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/meng-campus	Bioengineering	PMBI	Engineering - Professional	MEng
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/meng-campus	Civil and Environmental Engineering	PMCE	Engineering - Professional	MEng
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/meng-campus	Chemical and Biomolecular Engineering	PMCH	Engineering - Professional	MEng
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/meng-campus	Cybersecurity	PMCY	Engineering - Professional	MEng
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/meng-campus	Electrical and Computer Engineering	PMEE	Engineering - Professional	MEng
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/meng-campus	Environmental Engineering	PMEN	Engineering - Professional	MEng
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=rhsmith	**	These Business programs (MS and MBA) can be accessed through the Smith School of Business' application.		
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://sophas.liaisoncas.com/applicant-ux/#/login	*	These Public Health programs, can be accessed through the SOPHAS universal application.		
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/aosc-certificates	Air Quality Science and Technology	Z047	Computer/Mathematical and Natural Sciences	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/aosc-certificates	Computational Methods in Atmospheric and Oceanic Science	Z048	Computer/Mathematical and Natural Sciences	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-campus	Aerospace Engineering	Z053	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-campus	Bioengineering	Z054	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-campus	Chemical and Biomolecular Engineering	Z055	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-campus	Civil and Environmental Engineering	Z056	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-campus	Electrical and Computer Engineering	Z057	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-campus	Environmental Engineering	Z058	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/education/z069	Applied Counseling and Human Services	Z069	Education	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-campus	Cybersecurity	Z073	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/behavioralsocial-sciences/z074	Economic Analysis (Off-Campus)	Z074	Behavioral and Social Sciences	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/artshumanities/interpreting-translation	Consecutive Interpretation	Z080	Arts and Humanities	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-online	Bioengineering (online)	Z083	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/z088	Beekeeping (online)	Z088	Computer/Mathematical and Natural Sciences	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-online	Cybersecurity (online)	Z092	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/information-studies/z093	Curation and Management of Digital Assets	Z093	Information Studies	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/behavioralsocial-sciences/z096	African-American Studies	Z096	Behavioral and Social Sciences	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/behavioralsocial-sciences/z098	Economic Analysis (On-Campus)	Z098	Behavioral and Social Sciences	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/computermathematicalnatural-sciences/z104	Data Science	Z104	Computer/Mathematical and Natural Sciences	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-campus	Energy Systems Management and Policy	Z107	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/artshumanities/z110	Digital Studies in Arts and Humanities	Z110	Arts and Humanities	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-campus	Electronic Packaging (online)	Z111	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-online	Electronic Packaging	Z112	Engineering - Professional	Certificate
+		7/7/2018 2:04:07 PM	https://gradschool.umd.edu/admissions/programs-a-to-z	https://gradschool.umd.edu/engineering/cert-campus	Additive Manufacturing	Z115	Engineering - Professional	Certificate

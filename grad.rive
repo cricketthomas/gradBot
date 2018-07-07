@@ -32,6 +32,21 @@
 - <get name>
 
 
++ (help|hel|helpp|elp)
+- 1. Deferring Admission? Type: 'Defer' or '1' \s 
+^ 2. Looking for a fee waiver? 'Waiver' \s
+^ 3. Petition for program change or regulation change? 'Petition'  \s
+^ 4. Looking to contact a Department/Program: 'List' \s
+^ want to contact the program? Type the 4 digit program code.  \s
+^ 5. Looking for Froms? Type 'Forms' \s
+^ 6. Application login page? type 'Login' \s
+^ 7. Looking for Deadlines? type 'Deadlines' \s
+^ 8. Technical App issues? Email gradschool@umd.edu. \s
+^ We can help with a lot, but not password resets/glitches. \s
+^ 9. Function not listed? Email us! \s
+// cases
+
+
 //previous discussions
 
 //Deferrals
@@ -49,27 +64,17 @@
 ^ Please Copy and Paste this email to your clipboard. 
 
 
-
-
-
-
-
-
-
-
-
-
 //Waivers
 + (waiver|waivers|waive|fee|2)
 - The Graduate School waives the application fee  \s
 ^ for applicants from the following organizations  \s
 ^ and/or preparatory programs:  \s
-^ https://gradschool.umd.edu/feewaivereligibility
+^ https://gradschool.umd.edu/feewaivereligibility  \s
 ^ A signed letter from the program 
 
 //Forms
 + (petition|forms|form|petitions)
-- All forms are available in PDF format here:
+- All forms are available in PDF format here: \s
 ^ https://gradschool.umd.edu/forms
 
 // Contact
@@ -81,28 +86,495 @@
 ^ Just copy and paste them here and we'll let you know who you
 ^ you need to talk to for help or information. 
 
++ login
+- UMD Graduate School: \s
+- https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=umdgrad \s
+^ Smith Business School: \s
+^ https://app.applyyourself.com/AYApplicantLogin/fl_ApplicantConnectLogin.asp?id=rhsmith \s
+^ School of Public Heath: \s
+^ https://sophas.liaisoncas.com/applicant-ux/#/login  \s
+
+
 // all program contacts
 
++ aahp
+- Applied Anthropology and Historic Preservation \s
+^ Architecture \s
+^ https://gradschool.umd.edu/architectureplanningpreservation/aahp
+
++ amsc
+- Applied Mathematics \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/amsc
+
++ amst
+- American Studies \s
+^ Arts and Humanities \s
+^ https://gradschool.umd.edu/artshumanities/amst
+
++ ansc
+- Animal and Avian Sciences \s
+^ Agriculture and Natural Resources \s
+^ https://gradschool.umd.edu/agriculturenatural-resources/ansc
+
++ anth
+- Anthropology \s
+^ Behavioral and Social Sciences \s
+^ https://gradschool.umd.edu/behavioralsocial-sciences/anth
+
++ aosc
+- Atmospheric and Oceanic Science \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/aosc
+
++ arch
+- Architecture \s
+^ Architecture \s
+^ https://gradschool.umd.edu/architectureplanningpreservation/arch
+
++ arcp
+- Architecture and Community Planning \s
+^ Architecture \s
+^ https://gradschool.umd.edu/architectureplanningpreservation/arcp
+
++ ardv
+- Architecture and Real Estate Development \s
+^ Architecture \s
+^ https://gradschool.umd.edu/architectureplanningpreservation/ardv
+
++ arec
+- Agricultural and Resource Economics \s
+^ Agriculture and Natural Resources \s
+^ https://gradschool.umd.edu/agriculturenatural-resources/arec
+
++ arhp
+- Architecture and Historic Preservation \s
+^ Architecture \s
+^ https://gradschool.umd.edu/architectureplanningpreservation/arhp
+
++ arth
+- Art History and Archeology \s
+^ Arts and Humanities \s
+^ https://gradschool.umd.edu/artshumanities/arth
+
++ astr
+- Astronomy \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/astr
+
++ (bchl|mbch)
+- Behavioral and Community Health \s
+^ Public Health \s
+^ http://sph.umd.edu/degrees/mph-behavioral-and-community-health
+
++ bchm
+- Biochemistry \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/bchm
+
++ bioe
+- Bioengineering \s
+^ Engineering - Research \s
+^ https://gradschool.umd.edu/engineering/bioe
+
++ bios
+- Biostatistics* \s
+^ Public Health \s
+^ http://sph.umd.edu/degrees/mph-biostatistics
+
++ biph
+- Biophysics \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/biph
+
++ bisi
+- Biological Sciences \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/bisi
+
++ bmac
+- Accounting \s
+^ Business \s
+^ https://www.rhsmith.umd.edu/programs/ms-accounting
+
++ bman
+- Business Analytics \s
+^ Business \s
+^ https://www.rhsmith.umd.edu/programs/ms-business-analytics
+
++ (bmba|omba|emba|cmba)
+- Business Administration \s
+^ Business \s
+^ https://www.rhsmith.umd.edu/programs
+
++ bmsb
+- Business and Management** \s
+^ Business \s
+^ https://www.rhsmith.umd.edu/programs/ms-business-management
+
++ bphd
+- Business and Management \s
+^ Business \s
+^ https://gradschool.umd.edu/business/bphd
+
++ caud
+- Audiology (Clinical) \s
+^ Behavioral and Social Sciences \s
+^ https://gradschool.umd.edu/behavioralsocial-sciences/caud
+
++ chem
+- Chemistry \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/chem
+
++ chph
+- Chemical Physics \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/chph
+
++ cjch
+- Criminology and Criminal Justice - China \s
+^ Behavioral and Social Sciences \s
+^ https://gradschool.umd.edu/behavioralsocial-sciences/cjch
+
++ clas
+- Classics \s
+^ Arts and Humanities \s
+^ https://gradschool.umd.edu/artshumanities/clas
+
++ clfs
+- Chemical and Life Sciences (online) \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/clfs
+
++ cmlt
+- Comparative Literature \s
+^ Arts and Humanities \s
+^ https://gradschool.umd.edu/artshumanities/cmlt
+
++ cmpl
+- Community Planning \s
+^ Architecture \s
+^ https://gradschool.umd.edu/architectureplanningpreservation/cmpl
+
++ cmsc
+- Computer Science \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/cmsc
+
++ cocp
+- Counseling Psychology \s
+^ Education \s
+^ https://gradschool.umd.edu/education/cocp
+
++ comm
+- Communication \s
+^ Arts and Humanities \s
+^ https://gradschool.umd.edu/artshumanities/comm
+
++ cphp
+- Community Planning and Historic Preservation \s
+^ Architecture \s
+^ https://gradschool.umd.edu/architectureplanningpreservation/cphp
+
++ crim
+- Criminology and Criminal Justice \s
+^ Behavioral and Social Sciences \s
+^ https://gradschool.umd.edu/behavioralsocial-sciences/crim
+
++ crwr
+- Creative Writing \s
+^ Arts and Humanities \s
+^ https://gradschool.umd.edu/artshumanities/crwr
+
++ danc
+- Dance \s
+^ Arts and Humanities \s
+^ https://gradschool.umd.edu/artshumanities/danc
+
++ econ
+- Economics \s
+^ Behavioral and Social Sciences \s
+^ https://gradschool.umd.edu/behavioralsocial-sciences/econ
+
++ edci
+- Curriculum and Instruction \s
+^ Education \s
+^ https://gradschool.umd.edu/education/edci-ma
+
++ edci
+- Curriculum and Instruction \s
+^ Education \s
+^ https://gradschool.umd.edu/education/edci-med
+
++ edci
+- Curriculum and Instruction \s
+^ Education \s
+^ https://gradschool.umd.edu/education/edci-med-cert
+
++ edps
+- Education Policy Studies \s
+^ Education \s
+^ https://gradschool.umd.edu/education/edps
+
++ enae
+- Aerospace Engineering \s
+^ Engineering - Research \s
+^ https://gradschool.umd.edu/engineering/enae
+
++ ence
+- Civil and Environmental Engineering \s
+^ Engineering - Research \s
+^ https://gradschool.umd.edu/engineering/ence
+
++ ench
+- Chemical and Biomolecular Engineering \s
+^ Engineering - Research \s
+^ https://gradschool.umd.edu/engineering/ench
+
++ enee
+- Electrical and Computer Engineering \s
+^ Engineering - Research \s
+^ https://gradschool.umd.edu/engineering/enee
+
++ engl
+- English \s
+^ Arts and Humanities \s
+^ https://gradschool.umd.edu/artshumanities/engl
+
++ enst
+- Environmental Science and Technology \s
+^ Agriculture and Natural Resources \s
+^ https://gradschool.umd.edu/agriculturenatural-resources/enst
+
++ entm
+- Entomology \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/entm
+
++ envh
+- Environmental Health Sciences \s
+^ Public Health \s
+^ https://gradschool.umd.edu/public-health/envh
+
++ fcft
+- Couple and Family Therapy \s
+^ Public Health \s
+^ https://gradschool.umd.edu/public-health/fcft
+
++ grad
+- For information about applying as a non-degree seeking student (ndss) go here: \s
+^ https://gradschool.umd.edu/admissions/non-degree-admissions
+
++ lcpl
+- Community Planning and Law \s
+^ Architecture \s
+^ https://gradschool.umd.edu/architectureplanningpreservation/lcpl
+
++ mebi
+- Bioengineering (online) \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/meng-online
+
++ mecy
+- Cybersecurity (online) \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/meng-online
+
++ mieh
+- Environmental Health Sciences* \s
+^ Public Health \s
+^ http://sph.umd.edu/degrees/mph-environmental-health-sciences
++ mpae
+- Applied Entomology \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/mpae
+
++ mpao
+- Atmospheric and Oceanic Science and Technology \s
+^ Computer/Mathematical and Natural Sciences - Professional \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/mpao
+
++ mpci
+- Corporate Innovation (online) \s
+^ Interdisciplinary Programs/Centers \s
+^ https://gradschool.umd.edu/interdisciplinary-programs-centers/mpci
+
++ mpec
+- Applied Economics (Off-Campus) \s
+^ Behavioral and Social Sciences \s
+^ https://gradschool.umd.edu/behavioralsocial-sciences/mpec
+
++ mpem
+- Applied Economics (On-Campus) \s
+^ Behavioral and Social Sciences \s
+^ https://gradschool.umd.edu/behavioralsocial-sciences/mpem
+
++ mpps
+- Clinical Psychological Science \s
+^ Behavioral and Social Sciences \s
+^ https://gradschool.umd.edu/behavioralsocial-sciences/mpps
+
++ pmae
+- Aerospace Engineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/meng-campus
+
++ pmam
+- Additive Manufacturing \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/meng-campus
+
++ pmbi
+- Bioengineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/meng-campus
+
++ pmce
+- Civil and Environmental Engineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/meng-campus
+
++ pmch
+- Chemical and Biomolecular Engineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/meng-campus
+
++ pmcy
+- Cybersecurity \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/meng-campus
+
++ pmee
+- Electrical and Computer Engineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/meng-campus
+
++ pmen
+- Environmental Engineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/meng-campus
 
 
++ z047
+- Air Quality Science and Technology \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/aosc-certificates
 
++ z048
+- Computational Methods in Atmospheric and Oceanic Science \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/aosc-certificates
 
++ z053
+- Aerospace Engineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-campus
 
-+ (help|hel|helpp|elp)
-- 1. Deferring Admission? Type: 'Defer' or '1' \s 
-^ 2. Looking for a fee waiver? 'Waiver' \s
-^ 3. Petition for program change or regulation change? 'Petition'  \s
-^ 4. Looking to contact a Department/Program: 'List' \s
-^ want to contact the program? Type the 4 digit program code.  \s
-^ 5. Looking for Froms? Type 'Forms' \s
-^ 6. Application login page? type 'Login' \s
-^ 7. Looking for Deadlines? type 'Deadlines' \s
-^ 8. Technical App issues? Email gradschool@umd.edu. \s
-^ We can help with a lot, but not password resets/glitches. \s
-^ 9. Function not listed? Email us! \s
-// Tell the parser to join continuation lines with line brea
-// Now we don't need to explicitly write the \n characters every time!
++ z054
+- Bioengineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-campus
 
++ z055
+- Chemical and Biomolecular Engineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-campus
+
++ z056
+- Civil and Environmental Engineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-campus
+
++ z057
+- Electrical and Computer Engineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-campus
+
++ z058
+- Environmental Engineering \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-campus
+
++ z069
+- Applied Counseling and Human Services \s
+^ Education \s
+^ https://gradschool.umd.edu/education/z069
+
++ z073
+- Cybersecurity \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-campus
+
++ z074
+- Economic Analysis (Off-Campus) \s
+^ Behavioral and Social Sciences \s
+^ https://gradschool.umd.edu/behavioralsocial-sciences/z074
+
++ z080
+- Consecutive Interpretation \s
+^ Arts and Humanities \s
+^ https://gradschool.umd.edu/artshumanities/interpreting-translation
+
++ z083
+- Bioengineering (online) \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-online
+
++ z088
+- Beekeeping (online) \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/z088
+
++ z092
+- Cybersecurity (online) \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-online
+
++ z093
+- Curation and Management of Digital Assets \s
+^ Information Studies \s
+^ https://gradschool.umd.edu/information-studies/z093
+
++ z096
+- African-American Studies \s
+^ Behavioral and Social Sciences \s
+^ https://gradschool.umd.edu/behavioralsocial-sciences/z096
+
++ z098
+- Economic Analysis (On-Campus) \s
+^ Behavioral and Social Sciences \s
+^ https://gradschool.umd.edu/behavioralsocial-sciences/z098
+
++ z104
+- Data Science \s
+^ Computer/Mathematical and Natural Sciences \s
+^ https://gradschool.umd.edu/computermathematicalnatural-sciences/z104
+
++ z107
+- Energy Systems Management and Policy \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-campus
+
++ z110
+- Digital Studies in Arts and Humanities \s
+^ Arts and Humanities \s
+^ https://gradschool.umd.edu/artshumanities/z110
+
++ z111
+- Electronic Packaging (online) \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-campus
+
++ z112
+- Electronic Packaging \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-online
+
++ z115
+- Additive Manufacturing \s
+^ Engineering - Professional \s
+^ https://gradschool.umd.edu/engineering/cert-campus
 
 
 
