@@ -6,12 +6,16 @@ function main() {
     guide.onclick = guideBtn;
     bot = new RiveScript();
     bot.loadFile("grad.rive", botReady, botError);
-
     $("#chatInput").on('keyup', function (chatEvent) {
         if (chatEvent.keyCode == 13) {
             chat();
         }
     }); //https://api.jquery.com/keyup/
+
+    $(document).ready(function () {
+        bot.sortReplies();
+        console.log("Chatbot Status: OK");
+    });
 }
 
 function botReady() {
@@ -90,10 +94,10 @@ function botReply() {
     $('.wrapper').append($("<br>"));
 }
 
-console.log("Improvements or suggestions about this chatbot are appreciated, please email thomas iv at umd edu");
+console.log("Improvements or suggestions about this chatbot are appreciated, please email acthomasiv at  gmail");
 
 
-function guideBtn(){
+function guideBtn() {
     document.getElementById("chatInput").value = "help";
     chat();
 }
