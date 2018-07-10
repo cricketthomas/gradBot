@@ -91,79 +91,7 @@ function botReply() {
 
 console.log("Improvements or suggestions about this chatbot are appreciated, please email acthomasiv at  gmail");
 
-
 function guideBtn() {
     document.getElementById("chatInput").value = "help";
     chat();
 }
-
-/* 
-//jquery functions to wrap http://api.jquery.com/wrapall/
-function wrapperFunc() {
-    let wrapper = "<div class='wrapper'></div>";
-    $("div.inner").wrapAll(wrapper);
-}
-
-//trigger enter
-$("#chatInput").on('keyup', function (e) {
-    if (e.keyCode == 13) {
-        chat();
-    }
-});
-
-console.log("Improvements or suggestions about this chatbot are appreciated, please email thomas iv at umd edu");
-
-
-
-//playground for new methods. 
-//Write a function that prints stringified json. 
-let cleanJson = JSON.stringify(messagesJson);
-for (let x = 0; x < userMessagesArray.length, x++;) {}
-
-
-// does this print the json more readable?
-for (var key in messagesJson) {
-    if (messagesJson.hasOwnProperty(key)) {
-        var val = messagesJson[key];
-        console.log(val);
-    }
-}
-
-function divJson() {
-    Object.keys(messagesJson).forEach(function (key) {
-        for (x in messagesJson) {
-            console.log("user: " + messagesJson[key]);
-        }
-    });
-    Object.keys(replyJson).forEach(function (key) {
-        console.log("bot: " + replyJson[key]);
-    })
-
-
-
-    //this function converts messages to JSON or literal?
-function msgJSON_OLD() {
-    for (let i = 0; i < userMessagesArray.length && i < botMessagesArray.length; i++) {
-        messagesJson["user" + (i + 1)] = userMessagesArray[i];
-        messagesJson["bot" + (i + 1)] = botMessagesArray[i];
-        count++;
-    }
-    //messagesJson = JSON.stringify(messagesJson);
-    var msg = "Message " + JSON.stringify(messagesJson, undefined, 3);
-    test.innerHTML = msg; //maybe print it as json?
-    console.log(msg);
-}
-
-} 
-function newMessage() {
-    var table = document.getElementById("conversation");
-    var botRow = document.getElementById("botRow");
-    var row = table.insertRow(-1);
-    var q = row.insertCell(0);
-    var a = row.insertCell(1);
-    a.innerHTML = parsedMsg.bot.slice(-1)[0];
-    q.innerHTML = parsedMsg.user.slice(-1)[0];
-}
-
-
-*/

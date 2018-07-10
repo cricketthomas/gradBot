@@ -1,96 +1,27 @@
 * {
     margin: auto;
     font-family: Trebuchet MS;
-    font-size: 1.2vh 1.2vw;
-}
-
-body {
-    background-color: white;
-    padding-bottom: 2em;
+    font-size: 12pt;
 }
 
 h1,
 h3 {
-    margin: auto;
     text-align: center;
     margin: .25em;
+    font-size: 20pt;
 }
 
 #container {
-    padding: .5em 0em 0em 0em;
     text-align: center;
     margin: auto;
-}
-
-#chatInput {
-    margin-top: .3em;
-    padding: 0em 0em 0em 0em;
-    min-width: 42vw;
-    height: 4vh;
-    border: .15em solid #52000A;
-    border-radius: .3em;
-    display: inline-block;
-    display: block;
-    position: relative;
-    -webkit-box-shadow: 2.5px 2px 1px 1px #52000A;
-    -moz-box-shadow: 2.5px 2px 1px 1px #52000A;
-    box-shadow: 2.5px 2px 1px 1px #52000A;
-}
-
-#submit {
-    background-color: whitesmoke;
-    border: .25em solid #52000A;
-    -webkit-box-shadow:  3.5px 1px 1px 5px #52000A;
-    -moz-box-shadow:  3.5px 1px 1px 5px #52000A;
-    box-shadow: 3.5px 1px 1px 1px #52000A;
-    color: black;
-    border-radius: .3em;
-    font-size: .8em;
-    border-left: 0;
-    padding: .5em 2em .5em 2em;
-    width: 5vw;
-    text-align: center;
-    cursor: pointer;
-    text-align: center;
-    margin-top: .5em;
-    min-width: 9vw;
-}
-
-#guide {
-    background-color: whitesmoke;
-    border: .25em solid #52000A;
-    -webkit-box-shadow:  3.5px 1px 1px 5px #52000A;
-    -moz-box-shadow:  3.5px 1px 1px 5px #52000A;
-    box-shadow: 3px 1px 1px 1px #52000A;
-    color: black;
-    font-size: .8em;
-    border-radius: .3em;
-    border-top-right-radius: 0;
-    padding: .5em 2em .5em 2em;
-    text-align: center;
-    cursor: pointer;
-    text-align: center;
-    margin-top: .5em;
-    margin-right: -.1em;
-    min-width: 9vw;
-    
-}
-
-#submit:hover {
-    background-color: lavenderblush;
-    color: black;
-}
-
-#guide:hover {
-    background-color: lavenderblush;
-    color: black;
 }
 
 .innerBot {
     border: .09em solid gainsboro;
     background-color: darksalmon;
     border-radius: 80px 10px / 150px;
-    margin-bottom: .5em;
+    margin-bottom: 1em;
+    margin-top: 1em;
     max-width: 35vw;
     padding: 1em;
     display: inline-block;
@@ -101,6 +32,8 @@ h3 {
     border: .09em solid gainsboro;
     background-color: lightblue;
     border-radius: 10px 90px / 150px;
+    margin-bottom: 1em;
+    margin-top: 1em;
     max-width: 35vw;
     padding: 1em;
     display: inline-block;
@@ -108,17 +41,64 @@ h3 {
     overflow: hidden;
 }
 
+#chatInput {
+    margin-top: .3em;
+    padding: 0em 0em 0em 0em;
+    background-color: whitesmoke;
+    border: .25em solid black;
+    border-radius: .3em;
+    display: block;
+    width: 42%;
+    height: 2em;
+    position: relative;
+}
+
+#submit {
+    background-color: whitesmoke;
+    border: .25em solid black;
+    color: black;
+    border-radius: .3em;
+    font-size: .8em;
+    padding: .5em 2em .5em 2em;
+    width: 5vw;
+    text-align: center;
+    cursor: pointer;
+    margin-top: .5em;
+    min-width: 9vw;
+}
+
+#guide {
+    background-color: whitesmoke;
+    border: .25em solid black;
+    color: black;
+    font-size: .8em;
+    border-radius: .3em;
+    padding: .5em 2em .5em 2em;
+    text-align: center;
+    cursor: pointer;
+    margin-top: .5em;
+    margin-right: -.1em;
+    min-width: 9vw;
+}
+
+#submit:hover {
+    color: black;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
+#guide:hover {
+    color: black;
+    box-shadow: 1px 1px 1px 1px black;
+}
+
 .wrapper {
     background-color: whitesmoke;
-    border-bottom: 0;
+    border: .25em solid black;
     height: 75vh;
-    width: 40vw;
+    width: 39vw;
     overflow-y: auto;
     border-radius: .3em;
-    padding: 1em 2em 1em 1.5em;
-    -webkit-box-shadow:  3.5px 1px 1px 5px #52000A;
-    -moz-box-shadow:  3.5px 1px 1px 5px #52000A;
-    box-shadow: 3.5px 1px 1px 5px #52000A;
+    padding: 1em 2em 0em 1.5em;
     word-break: break-word;
 }
 
@@ -132,7 +112,7 @@ a {
     padding-left: 1em;
 }
 
-#policy{
+#policy {
     color: red;
     font-size: 7pt;
     text-decoration: underline;
