@@ -11,11 +11,6 @@ function main() {
             chat();
         }
     }); //https://api.jquery.com/keyup/
-
-    $(document).ready(function () {
-        bot.sortReplies();
-        console.log("Chatbot Status: OK");
-    });
 }
 
 function botReady() {
