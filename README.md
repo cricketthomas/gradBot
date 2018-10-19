@@ -1,4 +1,4 @@
-# gradBot - a Chatbot to help University of Maryland Graduate School applicants and current students. 
+# gradBot - a Chatbot to help University of Maryland Graduate School applicants and current students. Using JavaScript & RiveScript 
 ## Aimed to simplifiy requests sent to the GS and provide useful infromation to students and prospective students. 
 
 ### This is a simple chatbot, using JavaScript DOM, some jquery and RiveScript. 
